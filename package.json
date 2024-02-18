@@ -1,0 +1,18 @@
+{
+  "name": "mayalu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Hello World!",
+    "dev": "sass --watch source/mayalu.scss:dist/mayalu.css",
+    "reformat": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "sass": "^1.71.0"
+  }
+}
